@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+}
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+}
+
+a {text-decoration: none;}
+
+a:link {color: black;}     
+a:visited {color: grey;}  
+a:hover {color: rgb(78, 76, 76);}  
+a:active {color: #073e4b;}  
